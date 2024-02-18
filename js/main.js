@@ -14,7 +14,7 @@ let weatherdata;
 let urltiempo;
 
 async function buscar() {
-  url = `http://api.openweathermap.org/geo/1.0/direct?q=${inputtext[0].value.toString()},ES&limit=2&appid=${apikey}`;
+  url = `https://api.openweathermap.org/geo/1.0/direct?q=${inputtext[0].value.toString()},ES&limit=2&appid=${apikey}`;
   await fetch(url)
     .then((res) => {
       return res.json();
