@@ -26,7 +26,7 @@ body {
     background-color: white;
     border-radius: 20px;
     width: auto;
-    max-width: min(30rem, 70%);
+    max-width: min(40rem, 70%);
     height:auto;
     max-height: 3rem;
     display: flex;
@@ -178,7 +178,7 @@ margin: 0;
 }
 
 .active{
-  max-height: 50rem;
+  max-height: 100vh;
   height: auto;
 }
 
